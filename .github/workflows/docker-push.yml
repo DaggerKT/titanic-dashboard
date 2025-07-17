@@ -28,7 +28,7 @@ jobs:
           push: true
           tags: |
             daagerk/titanic-dashboard:latest
-            daagerk/titanic-dashboard:v0.0.1
+            daagerk/titanic-dashboard:v0.0.2
           
 
       # Optional: Tag with git commit SHA

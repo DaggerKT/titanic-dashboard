@@ -1,0 +1,19 @@
+# Codespaces setup for Titanic Dashboard
+# This file enables Docker Compose in Codespaces
+
+version: 1.0
+
+services:
+  app:
+    # Just a placeholder, main entry is docker-compose.yml
+    command: sleep infinity
+    # Optionally, you can expose ports here if you want Codespaces to show them
+    # ports:
+    #   - 80:80
+
+# Codespaces will use docker-compose.yml in the repo to start all services
+# After Codespace is created, run:
+#   bash start-all.sh
+# Or manually: npm install, npm run build, docker-compose up --build
+
+# You can preview the app at http://localhost:80 in Codespaces
